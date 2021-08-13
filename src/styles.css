@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+}
+
+.thankyou {
+  width: 100%;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+}
+
+.gridCell {
+  display: flex;
+  border: 1px solid lightgrey;
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.toneBox {
+  border: 1px solid black;
+}
+
+.toneLabel {
+  width: 100%;
+  margin: 0px 2px;
+  align-self: center;
+  text-align: center;
+}
